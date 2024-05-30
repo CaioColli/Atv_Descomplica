@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    div {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-weight: bold;
+            font-size: 24px;
+            order: 1;
+        }
+
+        img {
+           width: 250px;
+        }
+
+        p {
+            order: 2;
+        }
+    }
+}
